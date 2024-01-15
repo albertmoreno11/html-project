@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    background-color: rgb(247, 247,247);
+    color: rgb(0, 59, 74);
+    font-family: 'Lato', 'Noto Serif', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+header nav a {
+    padding: 5px;
+    color: rgb(0, 59, 74);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: rgb(191, 12, 240);
+}
+/*INDEX*/
+.s1-11 {
+    background-image: url(img/hero-image-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border: 1px solid transparent;
+}
+.s1-11 h1 {
+    font-size: 45px;
+    font-weight: 800;
+    width: 400px;
+    padding-left: 20px;
+}
+
+.s1-121 h2 {
+    font-size: 33px;
+    font-family: 'Noto Serif', sans-serif;
+
+}
+.s1-121 {
+    padding: 0px 18px 0px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.s1-131 {
+    padding: 0px 20px 0px 17px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.form-2 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.index-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-form label {
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+.form-1 input {
+    width: 440px;
+    height: 35px;
+    border: 1px solid rgba(211, 211, 211, 0.61);
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.form-2 button {
+    font-weight: 500;
+    margin: 30px 10px 60px 0px;
+    height: 35px;
+    width: 300px;
+    font-size: 17px;
+    color: rgb(247, 247,247);
+    background-color: rgb(0, 59, 74);
+    border: 1px;
+    border-radius: 5px;
+}
+
+.form-2 label {
+    font-size: 12px;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.s1-2 {
+    background-color: rgb(229, 225, 254);
+    padding: 0px 15px 60px 15px;
+}
+
+.s1-2 div img {
+    height: auto;
+    width: 100%;
+}
+
+.s1-2 div h3 {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 23px;
+}
+
+.s1-2 p {
+    line-height: 25px;
+}
+
+.s1-2 button {
+    font-weight: 500;
+    margin: 10px 10px 50px 0px;
+    height: 35px;
+    width: 125px;
+    font-size: 16px;
+    color: rgb(247, 247,247);
+    background-color: rgb(0, 59, 74);
+    border: 1px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(0, 59, 74);
+    color: rgb(229, 225, 254);
+}
+
+.foot-img {
+    margin: auto;
+}
+
+.foot {
+    padding: 20px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
+
+.foot2 {
+    padding: 5px;
+}
+
+.foot3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+}
+
+.foot3 a {
+    color: rgb(229, 225, 254);
+    text-decoration: none;
+}
+
+/*VIDEOS*/
+
+.s4-1 {
+    margin: 0 auto;
+}
+
+.vid-title {
+    font-family:  'Noto Serif', sans-serif;
+    padding: 20px 15px 10px 15px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.vid-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px 50px 15px;
+}
+
+.vid-container .vid1, .vid2, .vid3, .vid4, .vid5, .vid6 {
+    width: 400px;
+    height: 460px;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    background-color: white;
+}
+
+.vid-container div h2 {
+    font-family:  'Noto Serif', sans-serif;
+    font-size: 28px;
+}
+
+.vid-container div h2, p {
+    margin: 10px 10px;
+}
+
+.vid-container div p {
+    padding: 0px 5px 20px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif;
+}
+
+.vid12 {
+    padding: 5px;
+}
+
+
+@media (min-width: 888px) {
+    body {
+        font-family: 'Lato', 'Noto Serif', sans-serif;
+        color: rgb(0, 59, 74);
+        }
+    .s1-11 {
+        background-image: url(img/hero-image-home.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    .s1-11 h1 {
+        width: 500px;
+    }
+    .form-1 input {
+        width: 600px;
+        height: 35px;
+        border: 1px solid rgba(211, 211, 211, 0.61);
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+    .s1-2 div img {
+        width: 250px;
+        height: 300px;
+    }
+    .index-fotoesq {
+        transform: rotate(-5deg);
+    }
+    .index-fotodre {
+        transform: rotate(5deg);
+
+    }
+    .form-2 {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+    
+    footer {
+        background-color: rgb(0, 59, 74);
+        color: rgb(229, 225, 254);
+    }
+    .foot-img {
+        margin: auto;
+    }
+    .foot {
+        padding: 20px 30px 40px 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 13px;
+    }
+    .foot2 {
+        padding: 5px;
+    }
+    .foot3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 25px;
+    }
+    .foot3 a {
+        color: rgb(229, 225, 254);
+        text-decoration: none;
+    }
+    .vid1, .vid3, .vid5 {
+        margin-right: 40px;      
+    }
+}
+
+@media (min-width: 1320px) {
+    body {
+            margin: 0px;
+            background-color: rgb(247, 247,247);
+            color: rgb(0, 59, 74);
+            font-family: 'Lato', 'Noto Serif', sans-serif;
+    }
+    .s1-12 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .s1-121 {
+        width: auto;
+    }
+    .s1-131 {
+        width: 300px;
+    }
+    .vid1, .vid2, .vid3, .vid4, .vid5, .vid6 {
+        margin-right: 40px;      
+    }
+    .foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80px;
+    }
+    .foot2 {
+    display: flex;
+    justify-content: flex-end;
+    }
+    .foot2 a {
+        margin: 3px;
+    }
+    .foot3 {
+        flex-direction: row;
+    }
+
+    .foot3 a {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .vid-container {
+    margin: 0px 70px 0px 70px;
+    }
+}
